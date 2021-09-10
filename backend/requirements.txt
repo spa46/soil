@@ -1,4 +1,6 @@
 Django==3.2.7
 djangorestframework
 django-cors-headers
-django-rest-auth[with_social]
+# django-rest-auth[with_social]
+firebase-admin
+requests
