@@ -1,5 +1,5 @@
 """
-WSGI config for django_soil project.
+WSGI config for soil project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_soil.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'soil.settings')
 
 application = get_wsgi_application()
